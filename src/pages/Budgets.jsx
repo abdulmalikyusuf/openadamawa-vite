@@ -50,7 +50,7 @@ function Budgets() {
             <h1 className="fs-2 mb-0 pb-0">Expenditure summary for {LGAs[LGA]}</h1>
             <hr className="mt-0 pt-0"/>
             <Col xs={12} lg={6} className="mx-lg-auto">
-                <Card bg="state2state" className="shadow-lg rounded border-0 bg-state2state text-white p-2" bg="">
+                <Card bg="state2state" className="shadow-lg rounded border-0 bg-state2state text-white p-2">
                     <Card.Body>
                         <div className="d-flex justify-content-between">
                             <h4 className="fs-5">Total budget</h4>
