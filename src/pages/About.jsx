@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col } from "react-bootstrap"
+import { Row, Col, Table } from "react-bootstrap"
 
 // import {ReactComponent as Projections} from '../assets/svg/undraw_projections_re_ulc6.svg'
 import Image4 from '../assets/IMG-20220830-WA0010.jpg'
@@ -21,12 +21,25 @@ function Home() {
         </div>
       </Col>
       <Row className="mt-5 px-3 px-md-5">
-        <Col xs={12} lg={6}>
-          <p className="fs-2 fw-bold">About the Project</p>
-          <p className="fs-4" style={{textAlign: "justify"}}>The project understands the existing gaps in collating and recognizing citizens’ inputs in budgets, the awareness of citizens on budget monitoring despite the existence of open contracting data portals, and poor knowledge of the importance of paying fair amounts of taxes. The project focuses on the development objective of strengthening citizens’ participation and social accountability in fiscal transparency, procurement, and IGR monitoring in Adamawa State. The project builds the capacity and supports state and non-state actors. The project assesses where the target locations are left behind, strengthens where it is weak, and institutionalizes where it is strong using the principles of inclusivity, co-creation, transparency, accountability, and effectiveness in Public Finance Management (PFM). The project will give a particular emphasis to nominating budget and monitoring projects that will translate to improved delivery of public services in basic education, primary health care, and water, sanitation, and hygiene [WASH].</p>
+        <Col xs={12}>
+          <p className="fs-2 fw-bold">ADAMAWA STATE AT A GLANCE</p>
+          <p className="fs-4" style={{textAlign: "justify"}}>Adamawa State (also known as the Land of beauty) was created on 27th August 1991 alongside Taraba State from defunct Gongola State with Yola as it’s Capital. it is located in the North-East of Nigeria. It seats on a land area of 36, 917 square kilometers making it one the largest States in Nigeria placing it at 8th just behind Zamfara at 7th. It is bordered to the Northwest by Borno State, Gombe State to the West and Taraba State to the Southwest. It also shares International borders with Cameroon to the East. The State has 3 Senatorial Districts, 8 Federal Constituencies and 21 Local Government Areas as shown in the table below:</p>
         </Col>
-        <Col xs={12} lg={6} className="d-flex justify-content-center align-items-center">
-          <img src={Image5} fetchpriority="high" className="w-100 h-75 rounded" alt="Openadamwa 1"/>
+        <Col xs={12} lg={8} className="d-flex justify-content-center align-items-center">
+          {/* <img src={Image5} fetchpriority="high" className="w-100 h-75 rounded" alt="Openadamwa 1"/> */}
+          <Table>
+            <thead>
+              <td>Senatorial Districts</td>
+              <td>Federal Constituencies</td>
+              <td>Local Government Area</td>
+              <td>Ethnic Groups</td>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Adamawa North</td>
+              </tr>
+            </tbody>
+          </Table>
         </Col>
       </Row>
       <Row className="d-flex mt-5 px-3 px-md-5">
