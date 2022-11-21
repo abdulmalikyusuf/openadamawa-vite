@@ -3,8 +3,9 @@ import { Row, Col, Table } from "react-bootstrap"
 
 // import {ReactComponent as Projections} from '../assets/svg/undraw_projections_re_ulc6.svg'
 import Image4 from '../assets/IMG-20220830-WA0010.jpg'
-import Image5 from '../assets/20200122_1745138555652475911429985.jpg'
-import Rectangle from '../assets/rectangle.jpg'
+
+import Rectangle from '../assets/MDA.png'
+import govImage from '../assets/Gov.png'
 import Rectangle1 from '../assets/rectangle1.jpg'
 
 
@@ -23,11 +24,11 @@ function Home() {
       <Row className="mt-5 px-3 px-md-5">
         <Col xs={12}>
           <p className="fs-2 fw-bold">ADAMAWA STATE AT A GLANCE</p>
-          <p className="fs-4" style={{textAlign: "justify"}}>Adamawa State (also known as the Land of beauty) was created on 27th August 1991 alongside Taraba State from defunct Gongola State with Yola as it’s Capital. it is located in the North-East of Nigeria. It seats on a land area of 36, 917 square kilometers making it one the largest States in Nigeria placing it at 8th just behind Zamfara at 7th. It is bordered to the Northwest by Borno State, Gombe State to the West and Taraba State to the Southwest. It also shares International borders with Cameroon to the East. The State has 3 Senatorial Districts, 8 Federal Constituencies and 21 Local Government Areas as shown in the table below:</p>
+          <p className="fs-4" style={{textAlign: "justify"}}>Adamawa State Government has expressed commitment to work with the citizens to enhance governance. The state has signed up for the Open Government Partnership (OGP) and has committed to publishing procurement data in the state Open Contracting Data Standards (OCDS). These two accountability tools were meant to strengthen the Permanent Dialogue Mechanism (PDM), through which sustainable synergy between state governments and civil society can be forged to enhance service delivery and restore peace in the state and North Eastern Nigeria.</p>
         </Col>
         <Col xs={12} lg={8} className="d-flex justify-content-center align-items-center">
           {/* <img src={Image5} fetchpriority="high" className="w-100 h-75 rounded" alt="Openadamwa 1"/> */}
-          <Table>
+          {/* <Table>
             <thead>
               <td>Senatorial Districts</td>
               <td>Federal Constituencies</td>
@@ -39,34 +40,26 @@ function Home() {
                 <td>Adamawa North</td>
               </tr>
             </tbody>
-          </Table>
+          </Table> */}
         </Col>
       </Row>
       <Row className="d-flex mt-5 px-3 px-md-5">
         <Col xs={12} lg={6} className="order-last order-lg-first d-flex justify-content-center align-items-center">
-          <img src={Rectangle} className="w-100 h-75 rounded" alt="Openadamwa 1"/>
+          <img src={govImage} className="w-100 h-90 rounded" alt="Openadamwa 1"/>
         </Col>
         <Col xs={12} lg={6} className="order-first order-lg-last">
-          <p className="fs-4"  fetchpriority="high" style={{textAlign: "justify"}}>The project focuses on 3 LGAs. One in each state senatorial zone - Michika in the Northern Senatorial Zone, Ganye in the Southern Senatorial Zone, and Yola North in the Central Senatorial Zone of Adamawa State. The project works with the communities to build their capacities to prioritize their needs on budget lines that will improve service delivery, identify these projects from the budgets, and monitor them to implementation through the open contracting data. The project also works with the state’s Open Government Partnership Structure by keying and promoting the two thematic areas of fiscal transparency and citizen engagement. The selected local governments are built to serve as models and learning grounds for replication across the other local governments.</p>
+          <p className="fs-4"  fetchpriority="high" style={{textAlign: "justify"}}>The Governor of Adamawa State, Alhaji Ahmadu Fintiri, asserts that his administration firmly believes that PDM would go a long way in creating and fostering a continued synergy between government and Civil Society Organizations (CSOs) to maximize efforts to reform fiscal transparency in the states. He assures the civil society in the state that the government will continue to engage them as agents of change and public enlightenment in delivering democratic dividends to the good people of the state. Therefore, his administration welcomes constructive criticism from civil society in an objective, fair and rational manner for the betterment of society at large.</p>
         </Col>
       </Row>
       <Row className="mt-5 px-3 px-md-5">
         <Col xs={12} lg={6}>
-          <p className="fs-4" style={{textAlign: "justify"}}>The project is a hybrid with two components that support both government and citizens. With governments, the project provides technical assistance to participating government parastatals to co-build and sustain citizens engagement initiatives that stand in for improved service delivery in basic education, primary health care, and water, sanitation, and hygiene [WASH] in the most transparent, accountable and inclusive (youth, women, and persons with disabilities) way, with focus on fiscal planning, budget preparation and approval, procurement award and implementation and evaluation—processes that build stronger revenue generation, budgeting and procurement systems. While with citizens, the project shall utilize already existing platforms like community leaders, civil society networks, youth, women, and PWD groups while utilizing global initiatives like the Open Government Partnership (OGP) to build their capacity and awareness to ensure sustainability.</p>
+          <p className="fs-4" style={{textAlign: "justify"}}>The Adamawa State Ministry for Local Government Affairs has been leading in the implementation of the reforms of the Executive governor of Adamawa state. Under the leadership of Hon. Mohammed Umar, the Ministry is working with CSOs and Development partners to Support the improvement of fiscal transparency and accountability across all the local governments in the state.</p>
         </Col>
         <Col xs={12} lg={6} className="d-flex justify-content-center align-items-center">
-          <img src={Rectangle1}  fetchpriority="high" className="w-100 h-75 rounded" alt="Openadamwa 1"/>
+          <img src={Rectangle}  fetchpriority="high" className="w-75 h-75 rounded" alt="Openadamwa 1"/>
         </Col>
       </Row>
-      <Row className="d-flex mt-5 px-3 px-md-5">
-        <Col xs={12} lg={6} className="order-last order-lg-first d-flex justify-content-center align-items-center">
-          <img src={Image4} className="w-100 h-75 rounded" alt="Openadamwa 1"/>
-          {/* <Projections className="w-75 h-75"/> */}
-        </Col>
-        <Col xs={12} lg={6} className="order-first order-lg-last">
-          <p className="fs-4" style={{textAlign: "justify"}}>To further enhance Gender Equality and Social Inclusion (GESI). The project utilizes local radio programs to reach out to women, people living with disabilities, and people living in hard-to-reach communities for robust inclusion. The project uses the ‘ShinKunSheda - a podcast, to disseminate credible governance financial information like budget procurement information, sector performance, IGR analysis, and other public financial management data. Throughout the project, the team shall bring in their wealth of experience in promoting the principle of co-creation to deliver the support ensuring sustainability after the project span. It shall also adopt a smart effort to create lifelong localized solutions to local problems and ensure broad-based impact, aligning with the DAI - USAID goals.</p>
-        </Col>
-      </Row>
+     
     </Col>
     
   )
