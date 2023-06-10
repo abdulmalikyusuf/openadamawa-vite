@@ -1,0 +1,9 @@
+.dropdown_option {
+    outline: none;
+    color: white;
+    border-top: 1px solid white;
+    width: 100%;
+}
+.dropdown_option:hover {
+   background-color: gray;
+}
